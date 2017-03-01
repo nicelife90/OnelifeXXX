@@ -1,0 +1,193 @@
+img {
+    border: none;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: verdana, Tahoma;
+    color: #000000;
+
+    text-align: justify;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: verdana, Tahoma;
+    color: #000000;
+    line-height: 23px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover.pink {
+    color: #ff00cc;
+}
+
+
+.girl-container {
+    position: relative;
+}
+
+.girl-tag {
+    float: left;
+    position: absolute;
+    z-index: 1000;
+    background-color: #FF00CC;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 157px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 19px;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+}
+
+.bg-info {
+    background: url(../images/bg-info.png) no-repeat;
+    height: 32px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #ffffff;
+    line-height: 17px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.home_bg {
+    color: white;
+    width: 1000px;
+    height: 600px;
+    background-image: url(../images/home_bg.png);
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+    border: none;
+    font-family: verdana, Tahoma;
+    font-size: 10px;
+}
+
+.btn {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #ff00cc;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fc3cdf;
+    text-decoration: none;
+}
+
+.footer {
+    font-family: verdana, Tahoma;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 17px;
+
+}
+
+.bg-accueil {
+    background: url(../images/fond_accueil.png) no-repeat;
+    height: 298px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #ffffff;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 18px;
+
+}
+
+.babillard {
+    font-family: verdana, Tahoma;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+}
+
+.bg-certifion {
+    background: url(../images/bg-certifion.png) no-repeat;
+    height: 21px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #ffffff;
+    line-height: 19px;
+    text-align: center;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #f500c4;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.description td {
+
+    color: #ffffff;
+
+}
+
+.bg-recrutement {
+    background: url(../images/bg-recrutement.png) no-repeat;
+    height: 298px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #ffffff;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.bg-reservation {
+    background: url(../images/bg_reservation.png) no-repeat;
+    height: 298px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #ffffff;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.bg-bouton {
+    background: url(../images/bg_boutons.png) no-repeat;
+    height: 38px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: verdana, Tahoma;
+    color: #ffffff;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+
+
+
+
+
