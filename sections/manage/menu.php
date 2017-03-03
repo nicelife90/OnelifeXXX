@@ -3,5 +3,6 @@
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="<?php echo core::rootpath(); ?>/manage/dashboard.php"><i class="fa fa-user fa-fw"></i> Gestion du personnel</a></li>
                 <li><a href="<?php echo core::rootpath(); ?>/manage/config.php"><i class="fa fa-cog fa-fw"></i> Configurations générales</a></li>
+                <li><a href="<?php echo core::rootpath(); ?>/manage/wmadmin.php"><i class="fa fa-envelope fa-fw"></i> Gestion des courriels</a></li>
             </ul>
         </div>

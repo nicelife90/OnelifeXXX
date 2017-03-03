@@ -26,11 +26,8 @@ if (isset($_POST['save']) && core::csrf('config') == $_POST['csrf']) {
 
 
 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-    <h2 class="sub-header">Gestion du personnel (Édition)</h2>
-    <a class="btn btn-success btn-sm pull-right" href="<?php echo core::rootpath() . '/manage/dashboard.php'; ?>"><i
-                class="fa fa-arrow-left fa-fw"></i> Retour à la liste</a>
-    <div class="clearfix"></div>
-    <br/>
+    <h2 class="sub-header">Gestion des configurations</h2>
+
     <?php
     core::getMessage();
     core::csrf('config', true);
