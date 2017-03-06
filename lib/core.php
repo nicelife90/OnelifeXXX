@@ -12,26 +12,31 @@ class core
 
     /**
      * Return needed image
-     *
-     * @param $working
-     *
-     * @return string
-     */
-    public static function working($working)
-    {
 
-        $return = 'bouton-off.gif';
+     *
+*@param $working
+     * @param $img
+     *
+*@return string
+     */
+    public static function working($working, $img)
+    {
+        if (is_null($img) || empty($img)) {
+            return 'bouton-empty.jpg';
+        }
+
         switch ($working) {
             case 0:
-                $return = 'bouton-off.gif';
+                return 'bouton-off.jpg';
                 break;
             case 1:
-                $return = 'bouton-on.gif';
+                return 'bouton-on.jpg';
+                break;
+            default :
+                return 'bouton-off.jpg';
                 break;
 
         }
-
-        return $return;
     }
 
     /**
@@ -195,10 +200,11 @@ class core
     /**
      * Generate / Get CSRF Token
      *
-     * @param      $module - Module name
-     * @param bool $get    - Mode
+     * @param      $module   - Module name
+     * @param bool $generate - Mode
+
      *
-     * @return mixed
+*@return mixed
      */
     public static function csrf($module, $generate = false)
     {

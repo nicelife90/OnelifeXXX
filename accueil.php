@@ -44,7 +44,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G1 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[0]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[0]->working, $girls[0]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -60,7 +60,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G2 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[1]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[1]->working, $girls[1]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -76,7 +76,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G3 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[2]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[2]->working, $girls[2]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -92,7 +92,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G4 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[3]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[3]->working, $girls[3]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -108,7 +108,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G5 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[4]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[4]->working, $girls[4]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -148,7 +148,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G1 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[5]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[5]->working, $girls[5]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -164,7 +164,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G2 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[6]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[6]->working, $girls[6]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -180,7 +180,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G3 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[7]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[7]->working, $girls[7]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -196,7 +196,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G4 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[8]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[8]->working, $girls[8]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
@@ -212,7 +212,7 @@ while ($girl = $girls_query->fetch_object()) {
 
             <!-- G5 -->
             <td width="196"><img
-                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[9]->working); ?>"
+                        src="<?php echo core::rootpath(); ?>/asset/images/<?php echo core::working($girls[9]->working, $girls[9]->img_1); ?>"
                         width="196"
                         height="39" border="0">
                 <br>
