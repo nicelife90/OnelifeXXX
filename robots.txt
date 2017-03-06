@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /manage
+
+Sitemap: http://www.onelifexxx.com/robot.txt
